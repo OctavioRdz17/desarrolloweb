@@ -1,0 +1,337 @@
+/* reglas 
+        selectores 
+        declaraciones
+            propiedades
+                valores */
+
+/* Colores
+gris obscuro = #1d252c
+gris claro = #626262
+backgroun claro = #1b2127 
+celeste = #026fff*/
+body{ 
+   font-family: 'Source Sans Pro',sans-serif;
+   margin: 0;
+}
+
+.header{
+    background-color: #1D252C;
+    display: flex;
+    justify-content: space-between;
+    height: 70PX;
+    align-items: center;
+}
+
+
+.menu{
+    margin:  0px 0px 0px 0px;   
+    height: inherit;  
+    align-items: center;
+}
+
+.menu-list{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.menu-list-link{
+    height: inherit;
+
+}
+.header a{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    color: white;
+    text-decoration: none; 
+    margin:  0px 0px 0px 0px;
+    padding: 0px 10px ;
+}
+.logo {
+    margin-left: 0px;
+    padding-left: 0px 
+}
+
+
+figure{
+    margin: 0px;   
+}
+
+ol,
+ul{
+    margin: 0px;
+    list-style: none;
+    height: inherit;
+    
+}
+
+
+
+
+h1,
+h3,
+h2,
+h4,
+h5,
+h6{
+    font-weight: normal;
+}
+
+
+
+h1{
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color: white;
+    /* text-transform: uppercase;
+    text-decoration: dashed; */
+    margin: 0px ;
+
+}
+h1 strong{
+    color: #026fff;
+    
+}
+h2{
+    margin: 0px;
+    color:#026FFF ;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 25px 0px 25px 0px;
+    text-transform: uppercase;
+}
+.hero{
+    height: 300px;
+    /* background-image: url('./images/hero.jpg'); */
+    background-color:#1D252C ;
+    /* background-size: 500px,300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    /* padding-left: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-image{
+    border-radius: 5px;
+    height: inherit;
+    object-fit: cover;
+}
+
+
+.portfolio{
+    background-color: #fafafa;
+    /* padding: 0px 0px 0px 0px; */
+    text-transform: uppercase;
+}
+
+.project{
+border: 10px solid;
+border-color: gray;
+border-width: 3px;
+border-radius: 10px;
+
+margin-bottom: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 300px;
+}
+
+.project-title{
+    font-family:'Fjalla One',sans-serif; 
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom:10px ;
+
+}
+.project-course,
+.project-url,
+.project-date{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.project-article{
+    height: 30px;
+}
+.project-details{
+    width: 500px;
+    margin-left: 10px;
+}
+.project-imageConteiner{
+    height: inherit;
+    width: inherit;
+    display: flex;
+}
+
+.project-image{
+    max-height: 100%;
+    
+}
+.project strong{
+    font-family:'Fjalla One',sans-serif; 
+}
+.event-title{
+    margin-left: 30px;
+}
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-left: 25px; */
+
+}
+.event-article{
+    border: 1px;
+    margin: 10px;
+    width: 480px;
+    border-radius:5px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #ADD8E6;
+}
+.event-imageContainer{
+width: inherit;
+height: 200px;
+}
+.event-image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.event-details{
+    padding: 10px 25px;
+    margin: 20px ;
+    margin-top: -40px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.event-details h3{
+    font-family:'Fjalla One',sans-serif; 
+    font-weight: bold;
+}
+
+.event-description{
+    text-align: left;
+}
+.event-url{
+    border: 1px solid rgb(17, 2, 233);
+    border-radius: 7px;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: rgb(17, 2, 233);
+
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #1D252C;
+    color: white;
+    height: 60px;
+    
+
+}
+.footer figure{
+    display: flex;
+    height: inherit;
+    
+}
+
+.footer img{
+    vertical-align: middle;
+    max-height: 100%;
+}
+.footer a{
+    
+    color: white;
+
+}
+.footer p {
+    margin: 0 0 0 0;
+}
+
+.contact{
+    background-color: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    /* border: 1px solid red; */
+    margin-right: 10px;
+}
+.social-link{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    /* border: 1px solid white; */
+    background-size: 70px 70px;
+}
+
+.social-link.facebook{
+    background-image: url(./images/facebook.svg);
+    
+}
+.social-link.twitter{
+    background-image: url(./images/twitter.svg);
+    
+}
+.social-link.instagram{
+    background-image: url(./images/instagram.svg);
+    
+}
+.social-link.github{
+    background-image: url(./images/github.svg);
+    
+}
+
+.form-email button{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    font-style:'Fjalla One',sans-serif; 
+    font-size: 15px;
+    letter-spacing: 3px;
+    
+
+}
+.form-email input{
+    border-color: gray;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px 20px 5px 50px;
+    background-image: url(./images/envelope.svg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+    
+}
+
+.conteiner{
+    /* border: 1px solid red; */
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
